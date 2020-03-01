@@ -1,0 +1,6 @@
+use_frameworks!
+target 'XCMiPushLib_Tests' do
+  pod 'XCMiPushLib', :path => '../'
+  
+  
+end
