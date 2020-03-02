@@ -1,29 +1,11 @@
-# XCMiPushLib
+## 依賴版本
 
-[![CI Status](https://img.shields.io/travis/smallhappy/XCMiPushLib.svg?style=flat)](https://travis-ci.org/smallhappy/XCMiPushLib)
-[![Version](https://img.shields.io/cocoapods/v/XCMiPushLib.svg?style=flat)](https://cocoapods.org/pods/XCMiPushLib)
-[![License](https://img.shields.io/cocoapods/l/XCMiPushLib.svg?style=flat)](https://cocoapods.org/pods/XCMiPushLib)
-[![Platform](https://img.shields.io/cocoapods/p/XCMiPushLib.svg?style=flat)](https://cocoapods.org/pods/XCMiPushLib)
+專案路徑中的 XCMiPushLib/XCMiPushLib/Classes/libMiPushSDK/ 為小米推播官網上的 [2.2.13 于 2019.11.12 更新](http://admin.xmpush.xiaomi.com/zh_CN/mipush/downpage?version=2020030201&appId=2882303761517966158) 版本，未來若有新版本 SDK 或許需要再維護。
 
-## Example
+## 使用方法
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-## Installation
-
-XCMiPushLib is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'XCMiPushLib'
+安裝 pod 之後
+```swift
+import XCMiPushLib
 ```
-
-## Author
-
-smallhappy, chihhung751110+20160307@gmail.com
-
-## License
-
-XCMiPushLib is available under the MIT license. See the LICENSE file for more info.
+即可使用 MiPush 的 SDK ，具體集成的方法請參閱官網[文檔](https://dev.mi.com/console/doc/detail?pId=98)。
