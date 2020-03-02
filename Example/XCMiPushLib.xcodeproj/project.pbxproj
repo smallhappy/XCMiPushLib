@@ -18,9 +18,9 @@
 		9FCBD706ED6511F364A4DB4B /* Pods_XCMiPushLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCMiPushLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5CA3D9F89E60F549D2BDEA /* Pods-XCMiPushLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCMiPushLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-XCMiPushLib_Tests/Pods-XCMiPushLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B4D10FA2AB8DCB6A418CE5B3 /* Pods-XCMiPushLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCMiPushLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XCMiPushLib_Tests/Pods-XCMiPushLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B65F3E34B025865AC1C8544A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		BAFBCFF07D67A316C8038A51 /* XCMiPushLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XCMiPushLib.podspec; path = ../XCMiPushLib.podspec; sourceTree = "<group>"; };
-		D30B9AB44AC68F4D9AE007D2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B65F3E34B025865AC1C8544A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BAFBCFF07D67A316C8038A51 /* XCMiPushLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XCMiPushLib.podspec; path = ../XCMiPushLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D30B9AB44AC68F4D9AE007D2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,6 @@
 				B4D10FA2AB8DCB6A418CE5B3 /* Pods-XCMiPushLib_Tests.debug.xcconfig */,
 				AD5CA3D9F89E60F549D2BDEA /* Pods-XCMiPushLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

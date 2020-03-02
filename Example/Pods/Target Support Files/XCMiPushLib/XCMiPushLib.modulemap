@@ -1,0 +1,6 @@
+framework module XCMiPushLib {
+  umbrella header "XCMiPushLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

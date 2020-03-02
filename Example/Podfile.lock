@@ -1,0 +1,16 @@
+PODS:
+  - XCMiPushLib (0.1.0)
+
+DEPENDENCIES:
+  - XCMiPushLib (from `../`)
+
+EXTERNAL SOURCES:
+  XCMiPushLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XCMiPushLib: 6b1c07da05c0975c0052ffb9dbdd4c4178a298ba
+
+PODFILE CHECKSUM: c998439d88e93d3f944859c46726f8f528214331
+
+COCOAPODS: 1.7.4
