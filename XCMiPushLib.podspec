@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.public_header_files = 'Classes/**/*.h'
   s.frameworks = 'UserNotifications', 'SystemConfiguration', 'MobileCoreServices', 'CFNetwork', 'CoreTelephony'
   s.libraries = 'resolv', 'xml2', 'z'
-#  s.vendored_library = 'Classes/libMiPushSDK/libMiPushSDK.a'
+  s.vendored_library = 'Classes/libMiPushSDK/libMiPushSDK.a'
   s.static_framework = true
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'OTHER_LDFLAGS' => '-ObjC' }
 end
